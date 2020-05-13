@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0" language="ru_RU">
+
+    <!-- Greeting -->
+    <category><pattern>ÐÐ ÐÐÐÐ¢</pattern>
+        <template>
+            <random>
+                <li>ÐÐ´ÑÐ°Ð²ÑÑÐ²ÑÐ¹</li>
+                <li>ÐÐ´ÑÐ°Ð²ÑÑÐ²ÑÐ¹ÑÐµ</li>
+                <li>ÐÐ¾Ðµ Ð¿Ð¾ÑÑÐµÐ½Ð¸Ðµ!</li>
+                <li>ÐÐ´Ð°ÑÐ¾Ð²Ð°</li>
+                <li>ÐÑÐ¸Ð²ÐµÑÑÑÐ²ÑÑ</li>
+                <li>ÐÑÐ¸Ð²ÐµÑ</li>
+                <li>ÐÐ¾Ð±ÑÐ¾Ð³Ð¾ Ð²ÑÐµÐ¼ÐµÐ½Ð¸ ÑÑÑÐ¾Ðº</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ ÐÐ ÐÐÐÐ¢ ^</pattern>
+        <template>
+            <srai>ÐÐ ÐÐÐÐ¢</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ÐÐÐ ÐÐÐ¡Ð¢ÐÐ£Ð</pattern>
+        <template>
+            <srai>ÐÐ ÐÐÐÐ¢</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ ÐÐÐ ÐÐÐ¡Ð¢ÐÐ£Ð ^</pattern>
+        <template>
+            <srai>ÐÐ ÐÐÐÐ¢</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ÐÐÐ ÐÐÐÐ</pattern>
+        <template>Ð¾ÑÐ»Ð¸ÑÐ½Ð¾</template>
+    </category>
+</aiml>
